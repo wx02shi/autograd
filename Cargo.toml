@@ -1,0 +1,14 @@
+[package]
+name = "coregrad"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray = "0.15"
+
+[dev-dependencies]
+approx = "0.5"
+
+[lib]
+name = "coregrad"
+path = "src/lib.rs"
